@@ -25,7 +25,7 @@ class Playing extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    SizedBox(
+                    const SizedBox(
                       height: 55,
                     ),
                     Row(
@@ -35,11 +35,11 @@ class Playing extends StatelessWidget {
                             onTap: () {
                               sideMenuController.changePage(0);
                             },
-                            child: Icon(Iconsax.arrow_left_1)),
-                        SizedBox(
+                            child:const Icon(Iconsax.arrow_left_1)),
+                      const  SizedBox(
                           width: 65,
                         ),
-                        Text(
+                     const   Text(
                           "Now Playing",
                           style: TextStyle(
                               color: Colors.white,

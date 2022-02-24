@@ -25,14 +25,14 @@ class Homepage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SizedBox(
+             const   SizedBox(
                   height: 30,
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
+                    children: const [
                       Icon(Iconsax.search_normal),
                       SizedBox(
                         width: 10,
@@ -86,7 +86,7 @@ class Homepage extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(16.0),
                         child: Row(
-                          children: [
+                          children: const [
                             Text(
                               "Genres",
                               style: TextStyle(
@@ -158,7 +158,7 @@ runSpacing: 8.0,
                       Padding(
                         padding: const EdgeInsets.all(16.0),
                         child: Row(
-                          children: [
+                          children: const [
                             Text(
                               "Recent Artists",
                               style: TextStyle(
